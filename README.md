@@ -3,7 +3,9 @@
   <h1>OS Flow</h1>
   <p><strong>Gestão de ordens de serviço e produção para comunicação visual.</strong></p>
   <p>
-    <a href="https://os-personalizacao.web.app"><strong>Acessar demonstração</strong></a>
+    <a href="https://os-personalizacao.web.app" target="_blank" rel="noopener noreferrer">
+  <strong>Acessar demonstração</strong>
+</a>
   </p>
 </div>
 
