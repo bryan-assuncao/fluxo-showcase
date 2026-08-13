@@ -1,144 +1,197 @@
 <div align="center">
-  <img src="https://fluxo.web.app/tag.svg" width="76" alt="Símbolo do Fluxo" />
+  <img src="https://fluxo.web.app/tag.svg" width="80" alt="Fluxo" />
+
   <h1>Fluxo</h1>
-  <p><strong>Ordens de serviço, produção e financeiro no mesmo fluxo.</strong></p>
-  <p>Plataforma web + aplicativo para empresas de comunicação visual.</p>
+
+  <p><strong>Ordens de serviço, produção e financeiro.<br />Tudo no mesmo fluxo.</strong></p>
+
   <p>
-    <a href="https://fluxo.web.app" target="_blank" rel="noopener noreferrer"><strong>Acessar demonstração</strong></a>
-    ·
-    <a href="#visão-do-produto">Conhecer o produto</a>
-    ·
-    <a href="#aplicativo-mobile">Ver o aplicativo</a>
+    Plataforma web e mobile criada para a rotina de empresas de comunicação visual.
+  </p>
+
+  <p>
+    <a href="https://fluxo.web.app"><strong>Conhecer o Fluxo ↗</strong></a>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="#demonstração">Acessar demonstração</a>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="#tecnologia">Tecnologia</a>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/web-online-059669?style=flat-square" alt="Web online" />
+    <img src="https://img.shields.io/badge/mobile-Android%20%26%20iOS-0f172a?style=flat-square" alt="Android e iOS" />
+    <img src="https://img.shields.io/badge/dados-tempo%20real-0891b2?style=flat-square" alt="Dados em tempo real" />
+    <img src="https://img.shields.io/badge/status-em%20produção-7c3aed?style=flat-square" alt="Em produção" />
   </p>
 </div>
 
 ---
 
-## Acesso de demonstração
+## O produto
 
-| Campo | Credencial |
-|---|---|
-| E-mail | `teste@teste.com` |
-| Senha | `contatest*` |
+O **Fluxo** conecta atendimento, produção e financeiro em uma única operação.
+Uma OS nasce no balcão, avança pelo painel de produção e termina com entrega e
+recebimento registrados — sem planilhas paralelas ou atualização duplicada.
 
-> A conta é exclusiva para demonstração. Use apenas dados fictícios.
+Cada empresa utiliza sua própria instalação Firebase, com usuários e dados
+totalmente isolados.
 
-## Visão do produto
+## O Fluxo em ação
 
-O **Fluxo** acompanha uma ordem de serviço do orçamento à entrega. Atendimento,
-produção e financeiro trabalham sobre a mesma informação, sem planilhas paralelas
-ou atualização duplicada.
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <strong>1. Visão geral</strong><br />
+      <sub>Indicadores, atrasos e próximas entregas logo na entrada.</sub>
+    </td>
+    <td width="50%" align="center">
+      <strong>2. Produção</strong><br />
+      <sub>A OS avança de etapa direto pelo celular.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/01-dashboard.png" width="390" alt="Dashboard do aplicativo Fluxo" />
+    </td>
+    <td align="center">
+      <img src="assets/02-production.png" width="390" alt="Painel de produção do aplicativo Fluxo" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <strong>3. Ordens e prazos</strong><br />
+      <sub>Busca, filtros, status e alertas em uma única lista.</sub>
+    </td>
+    <td width="50%" align="center">
+      <strong>4. Financeiro</strong><br />
+      <sub>Faturado, recebido, vencido e evolução mensal.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/03-orders.png" width="390" alt="Lista de ordens do aplicativo Fluxo" />
+    </td>
+    <td align="center">
+      <img src="assets/04-finance.png" width="390" alt="Financeiro do aplicativo Fluxo" />
+    </td>
+  </tr>
+</table>
 
-O produto tem duas interfaces conectadas ao mesmo banco de dados:
+<p align="center"><sub>Capturas PNG feitas diretamente no aplicativo Android em execução, sem reconstrução ou edição por IA.</sub></p>
 
-- **Web:** visão completa da operação, Kanban, financeiro, cadastros, relatórios e exportações.
-- **Mobile:** rotina de balcão e produção no Android/iOS, com criação e consulta de OS, mudança de etapa e compartilhamento de PDF.
+## Demonstração
 
-Cada empresa recebe uma instalação Firebase isolada, mantendo os dados de clientes
-e pedidos separados por operação.
+<table>
+  <tr>
+    <td><strong>Aplicação</strong></td>
+    <td><a href="https://fluxo.web.app">fluxo.web.app</a></td>
+  </tr>
+  <tr>
+    <td><strong>E-mail</strong></td>
+    <td><code>teste@teste.com</code></td>
+  </tr>
+  <tr>
+    <td><strong>Senha</strong></td>
+    <td><code>contatest*</code></td>
+  </tr>
+</table>
 
-## Aplicativo mobile
+> Ambiente destinado à demonstração. Cadastre somente informações fictícias.
 
-<p align="center">
-  <img src="assets/mobile-dashboard.png" width="205" alt="Painel inicial do aplicativo Fluxo" />
-  &nbsp;
-  <img src="assets/mobile-orders.png" width="205" alt="Lista e filtros de ordens de serviço no aplicativo Fluxo" />
-  &nbsp;
-  <img src="assets/mobile-finance.png" width="205" alt="Painel financeiro do aplicativo Fluxo" />
-  &nbsp;
-  <img src="assets/mobile-production.png" width="205" alt="Painel de produção do aplicativo Fluxo" />
-</p>
-
-<p align="center"><sub>Aplicativo real em execução no Android. Dados ilustrativos e nomes anonimizados.</sub></p>
-
-## Da entrada à entrega
-
-`Recebido` → `Arte` → `Produção` → `Pronto` → `Entregue`
-
-1. O atendimento cadastra o cliente e cria a OS com produtos, medidas, quantidades e prazo.
-2. O sistema calcula itens por metro quadrado ou unidade e registra o valor acordado.
-3. A produção movimenta o pedido entre etapas pelo Kanban no site ou pelo aplicativo.
-4. A equipe acompanha atrasos, chama o cliente no WhatsApp e compartilha a OS em PDF.
-5. O financeiro registra recebimentos e acompanha faturado, recebido, saldo e margem.
-
-## Recursos principais
-
-### Ordens de serviço
-
-- Numeração sequencial e sem duplicidade (`OS-0001`, `OS-0002`...).
-- Múltiplos itens por OS, com cálculo por m² ou unidade.
-- Prazo, observações de produção, link externo da arte e histórico de alterações.
-- Busca por número, cliente ou produto e filtros por status e atraso.
-- Impressão e compartilhamento da OS em PDF.
-- Cancelamento sem apagar o histórico ou abrir lacunas na numeração.
-
-### Produção
-
-- Kanban com arrastar e soltar no desktop e suporte a toque.
-- Fluxo visual por etapa, com contadores e alertas de prazo.
-- Atualização em tempo real para todos os usuários conectados.
-- Ação rápida para avisar o cliente pelo WhatsApp.
-
-### Financeiro
-
-- Faturado, recebido, a receber e vencido por período.
-- Recebimentos individuais com data, valor, forma e observação.
-- Gráfico mensal, maiores clientes, OS em aberto e margem.
-- Exportação de ordens e recebimentos para a contabilidade.
-
-### Clientes e produtos
-
-- Validação de CPF/CNPJ, telefone e e-mail.
-- Busca de endereço por CEP e consulta cadastral de CNPJ.
-- Produtos com preço, custo, material, medidas e foto.
-- Exclusão recuperável de clientes e produtos, com cópia protegida e trilha de auditoria.
-
-## Experiência e segurança
-
-- Interface responsiva, temas claro e escuro e navegação otimizada para toque.
-- Cache local para consultar a última sessão e sincronizar mudanças ao reconectar.
-- Login por e-mail e senha, com acesso condicionado ao perfil da empresa.
-- Regras de segurança testadas para Firestore e Storage.
-- Cloud Functions de 2ª geração para operações sensíveis e recuperáveis.
-- Registro de autoria e horário em alterações importantes.
-- Instalação independente por empresa, com backups e recuperação do Firestore.
-
-## Arquitetura
+## Do orçamento à entrega
 
 ```text
-Site React/Vite ───────┐
-                      ├── Firebase Auth
-App Expo/React Native ┤── Cloud Firestore em tempo real
-                      ├── Cloud Storage
-Domínio compartilhado ┤── Cloud Functions v2
-                      └── Firebase Hosting
+Recebido  →  Arte  →  Produção  →  Pronto  →  Entregue
 ```
 
-As regras de preço, saldo, validação e tipos vivem em um pacote TypeScript
-compartilhado pelo site e pelo aplicativo. Assim, as duas interfaces calculam e
-interpretam os pedidos da mesma forma.
+1. **Atendimento:** cadastra o cliente e monta a OS com produtos, medidas, valores e prazo.
+2. **Produção:** acompanha a fila e movimenta o pedido entre as etapas.
+3. **Relacionamento:** consulta o histórico e chama o cliente pelo WhatsApp.
+4. **Entrega:** gera ou compartilha a OS em PDF.
+5. **Financeiro:** registra cada recebimento e acompanha saldo, vencimento e margem.
 
-## Tecnologias
+## Uma operação completa
 
-| Camada | Tecnologias |
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Atendimento</strong><br /><br />
+      Clientes e produtos<br />
+      Consulta de CEP e CNPJ<br />
+      Cálculo por m² ou unidade<br />
+      Numeração automática<br />
+      Link externo da arte
+    </td>
+    <td width="33%" valign="top">
+      <strong>Produção</strong><br /><br />
+      Kanban em tempo real<br />
+      Arrastar e soltar<br />
+      Suporte a toque<br />
+      Alertas de prazo<br />
+      Histórico de status
+    </td>
+    <td width="33%" valign="top">
+      <strong>Gestão</strong><br /><br />
+      Faturado e recebido<br />
+      Valores em aberto<br />
+      Margem por período<br />
+      Exportação contábil<br />
+      Auditoria de alterações
+    </td>
+  </tr>
+</table>
+
+### Recursos que fazem diferença no dia a dia
+
+- Busca por número da OS, cliente ou produto.
+- Filtros por etapa, atraso e entrega.
+- Recebimentos individuais com data, forma e observação.
+- PDF da ordem de serviço para impressão ou compartilhamento.
+- WhatsApp com mensagem contextual conforme a etapa do pedido.
+- Cancelamento que preserva histórico e numeração.
+- Exclusão recuperável de clientes e produtos.
+- Cache da última sessão e sincronização ao reconectar.
+- Temas claro e escuro e interface responsiva.
+
+## Web e aplicativo, o mesmo produto
+
+O site oferece a visão ampla da operação. O aplicativo leva as tarefas mais
+frequentes para o balcão e para a produção. Os dois consomem os mesmos dados e o
+mesmo domínio TypeScript, evitando divergências de preço, saldo e validação.
+
+```text
+┌─────────────────┐       ┌─────────────────────┐
+│ Site React/Vite │       │ App Expo/React Native│
+└────────┬────────┘       └──────────┬──────────┘
+         └──────────────┬────────────┘
+                        │
+               Domínio compartilhado
+                        │
+     Firebase Auth · Firestore · Storage · Functions
+```
+
+## Tecnologia
+
+| Área | Stack |
 |---|---|
-| Web | React 19, TypeScript, Vite |
-| Mobile | Expo, React Native, Expo Router |
-| Dados | Firebase Authentication, Firestore, Storage |
-| Back-end | Cloud Functions v2, Node.js 22 |
-| Qualidade | Vitest, Testing Library, testes de regras, CI/CD |
-| Entrega | Firebase Hosting e GitHub Actions |
+| Web | React 19, TypeScript e Vite |
+| Mobile | Expo, React Native e Expo Router |
+| Plataforma | Firebase Authentication, Firestore, Storage e Hosting |
+| Back-end | Cloud Functions v2 com Node.js 22 |
+| Qualidade | Vitest, Testing Library, testes de regras e CI/CD |
 
-## Demonstração online
+### Segurança e confiabilidade
 
-**Site:** [fluxo.web.app](https://fluxo.web.app)
-
-Use as credenciais no início desta página para explorar o sistema. O aplicativo
-mobile faz parte do produto, mas não está distribuído publicamente neste
-repositório.
+- Regras testadas para Firestore e Storage.
+- Operações sensíveis executadas por Cloud Functions.
+- Autoria e horário registrados nas alterações importantes.
+- Exclusões recuperáveis e trilha protegida para auditoria.
+- Instalação, backup e recuperação independentes por empresa.
 
 ---
 
-<p align="center">
-  Este repositório apresenta o produto. O código-fonte é privado.
-</p>
+<div align="center">
+  <p><strong>Fluxo</strong> — da entrada do pedido à entrega.</p>
+  <p><a href="https://fluxo.web.app">Abrir demonstração ↗</a></p>
+  <sub>Este repositório apresenta o produto. O código-fonte é privado.</sub>
+</div>
