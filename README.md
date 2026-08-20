@@ -9,11 +9,29 @@
   <p>
     <a href="https://fluxo.web.app"><strong>Ver demonstração ↗</strong></a>
     &nbsp;·&nbsp;
+    <a href="https://drive.google.com/file/d/1dPtCzoeGLx6bnFy84FViZ9FTgyd3-jNX/view?usp=drive_link"><strong>Baixar o app ↗</strong></a>
+    &nbsp;·&nbsp;
     <a href="#recursos">Recursos</a>
     &nbsp;·&nbsp;
     <a href="#tecnologia">Tecnologia</a>
   </p>
 </div>
+
+<br />
+
+## Acesso
+
+| | |
+| --- | --- |
+| **Site** | [fluxo.web.app](https://fluxo.web.app) |
+| **Aplicativo Android** | [Baixar APK ↗](https://drive.google.com/file/d/1dPtCzoeGLx6bnFy84FViZ9FTgyd3-jNX/view?usp=drive_link) |
+| **Login** | `teste@teste.com` |
+| **Senha** | `contatest*` |
+
+O mesmo login vale para o site e para o aplicativo.
+
+> Ambiente de demonstração. Cadastre somente informações fictícias.<br />
+> No Android, é preciso permitir a instalação de apps de fontes desconhecidas para abrir o APK.
 
 <br />
 
@@ -58,13 +76,6 @@ No balcão ou na produção, as tarefas essenciais ficam sempre à mão e sincro
 </details>
 
 <br />
-
-## Demonstração
-
-**Acesse:** [fluxo.web.app](https://fluxo.web.app)<br />
-**Login:** `teste@teste.com` · **Senha:** `contatest*`
-
-> Ambiente de demonstração. Cadastre somente informações fictícias.
 
 ## Tecnologia
 
