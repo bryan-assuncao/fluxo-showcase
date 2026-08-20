@@ -1,89 +1,90 @@
 <div align="center">
-  <img src="https://fluxo.web.app/tag.svg" width="72" alt="Símbolo do Fluxo" />
+  <img src="https://fluxo.web.app/tag.svg" width="80" alt="Logo Fluxo" />
+  
+  # Fluxo
+  
+  **Da ordem de serviço ao financeiro, tudo no mesmo fluxo.**
+  
+  *Gestão integrada e simplificada para empresas de comunicação visual.*
 
-  <h1>Fluxo</h1>
+  <br />
 
-  <p><strong>Da ordem de serviço ao financeiro, tudo no mesmo fluxo.</strong></p>
-  <p>Gestão simples para empresas de comunicação visual.</p>
+  [![Web App](https://img.shields.io/badge/Acessar_Web-fluxo.web.app-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://fluxo.web.app)
+  [![Download APK](https://img.shields.io/badge/Baixar_App-Android_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://drive.google.com/file/d/1dPtCzoeGLx6bnFy84FViZ9FTgyd3-jNX/view?usp=drive_link)
 
-  <p>
-    <a href="https://fluxo.web.app"><strong>Ver demonstração ↗</strong></a>
-    &nbsp;·&nbsp;
-    <a href="https://drive.google.com/file/d/1dPtCzoeGLx6bnFy84FViZ9FTgyd3-jNX/view?usp=drive_link"><strong>Baixar o app ↗</strong></a>
-    &nbsp;·&nbsp;
-    <a href="#recursos">Recursos</a>
-    &nbsp;·&nbsp;
-    <a href="#tecnologia">Tecnologia</a>
-  </p>
+  <br />
+
+  [Visão Geral](#-visão-geral) • [Recursos](#-recursos) • [Acesso Demo](#-acesso-à-demonstração) • [Mobile](#-aplicativo-mobile) • [Stack](#-tecnologias)
 </div>
 
 <br />
 
-## Acesso
+---
 
-| | |
-| --- | --- |
-| **Site** | [fluxo.web.app](https://fluxo.web.app) |
-| **Aplicativo Android** | [Baixar APK ↗](https://drive.google.com/file/d/1dPtCzoeGLx6bnFy84FViZ9FTgyd3-jNX/view?usp=drive_link) |
-| **Login** | `teste@teste.com` |
-| **Senha** | `contatest*` |
+## ⚡ Acesso à Demonstração
 
-O mesmo login vale para o site e para o aplicativo.
+Use as credenciais abaixo para testar tanto a versão Web quanto o App Android:
 
-> Ambiente de demonstração. Cadastre somente informações fictícias.<br />
-> No Android, é preciso permitir a instalação de apps de fontes desconhecidas para abrir o APK.
+| Plataforma | Link Direto | E-mail de Teste | Senha de Teste |
+| :--- | :--- | :--- | :--- |
+| **Painel Web** | [fluxo.web.app](https://fluxo.web.app) | `teste@teste.com` | `contatest*` |
+| **App Android** | [Download APK](https://drive.google.com/file/d/1dPtCzoeGLx6bnFy84FViZ9FTgyd3-jNX/view?usp=drive_link) | `teste@teste.com` | `contatest*` |
 
-<br />
+> ⚠️ **Aviso:** Ambiente compartilhado de homologação. Cadastre apenas dados fictícios.  
+> 💡 *Para instalar no Android, habilite a permissão de "Instalar apps de fontes desconhecidas".*
+
+---
+
+## 🖥️ Visão Geral
+
+O **Fluxo** centraliza atendimento, produção e controle financeiro em um único ecossistema. A OS nasce no balcão de vendas, percorre a linha de produção em tempo real e encerra com entrega e baixa financeira automatizadas — eliminando de vez planilhas paralelas.
 
 <div align="center">
-  <h2>Uma visão completa no desktop</h2>
-  <p>Acompanhe pedidos, produção, produtos e financeiro em um único painel.</p>
-  <img src="assets/fluxo-desktop.png" width="1000" alt="Fluxo no desktop com as telas Visão geral, Produção, Financeiro e Produtos" />
+  <img src="assets/fluxo-desktop.png" width="100%" alt="Painel Desktop Fluxo" />
 </div>
 
-<br />
+---
 
-## Feito para a rotina real
+## 💻 Recursos
 
-O **Fluxo** conecta atendimento, produção e financeiro em uma única operação. A OS nasce no balcão, avança pela produção e termina com a entrega e os recebimentos registrados — sem planilhas paralelas.
+* **📋 Ordens de Serviço:** Gestão de clientes, medidas, cálculo automático de valores, prazos e geração de PDF.
+* **⚙️ Linha de Produção:** Painel Kanban em tempo real, controle de etapas operacionais e alertas automáticos de atraso.
+* **📊 Módulo Financeiro:** Balanço de faturamento, contas a receber, inadimplência e projeção de faturamento mensal.
+* **💬 CRM & WhatsApp:** Histórico de contatos com acionamento direto de mensagens via WhatsApp integrado.
+* **🎨 Temas Adaptativos:** Suporte nativo a temas claro e escuro.
+* **🔒 Arquitetura Multitenant:** Isolamento completo de dados e autenticação por empresa via Firebase.
 
-Cada empresa utiliza seu próprio ambiente Firebase, com usuários e dados isolados.
+---
 
-## Recursos
+## 📱 Aplicativo Mobile
 
-- **Ordens de serviço:** clientes, produtos, medidas, valores, prazos e PDF.
-- **Produção:** painel em tempo real, etapas, histórico e alertas de atraso.
-- **Financeiro:** faturado, recebido, valores em aberto e evolução mensal.
-- **Relacionamento:** busca rápida e contato contextual pelo WhatsApp.
-- **Claro ou escuro:** interface responsiva adaptada a cada rotina.
-
-<br />
-
-## Aplicativo mobile
-
-No balcão ou na produção, as tarefas essenciais ficam sempre à mão e sincronizadas com o painel web.
+Otimizado para a operação de chão de fábrica e consultas rápidas de balcão, com sincronização em tempo real via WebSockets/Firebase.
 
 <p align="center">
-  <img src="assets/fluxo-light.png" width="1000" alt="Fluxo nos módulos Início, Produtos e Financeiro em tema claro" />
+  <img src="assets/fluxo-light.png" width="100%" alt="Interface Mobile Tema Claro" />
 </p>
 
 <details>
-  <summary><strong>Visualizar também no tema escuro</strong></summary>
+  <summary><strong>🌙 Ver interface no tema escuro</strong></summary>
   <br />
   <p align="center">
-    <img src="assets/fluxo-dark.png" width="1000" alt="Fluxo nos módulos Início, Produtos e Financeiro em tema escuro" />
+    <img src="assets/fluxo-dark.png" width="100%" alt="Interface Mobile Tema Escuro" />
   </p>
 </details>
 
-<br />
+---
 
-## Tecnologia
+## 🛠 Tecnologias
 
-`React 19` · `TypeScript` · `Vite` · `Expo` · `React Native` · `Firebase`
+![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
 ---
 
 <div align="center">
-  <strong>Fluxo</strong> — da entrada do pedido à entrega.<br />
-  <sub>Este repositório apresenta o produto. O código-fonte é privado.</sub>
+  <sub><strong>Fluxo</strong> © Todos os direitos reservados. Repositório demonstrativo (código-fonte proprietário).</sub>
 </div>
