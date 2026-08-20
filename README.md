@@ -12,17 +12,10 @@
   </p>
 
   <br />
-
-  <a href="https://fluxo.web.app">
-    <img src="https://img.shields.io/badge/ACESSAR_DEMONSTRAÇÃO-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Acessar demonstração" />
-  </a>
+  
+  <a href="https://fluxo.web.app"><img src="https://img.shields.io/badge/ACESSAR_DEMONSTRAÇÃO-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Acessar demonstração" /></a>
   &nbsp;
-  <a href="https://drive.google.com/file/d/1dPtCzoeGLx6bnFy84FViZ9FTgyd3-jNX/view?usp=drive_link">
-    <img src="https://img.shields.io/badge/BAIXAR_APP_ANDROID-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Baixar aplicativo Android" />
-  </a>
-
-  <br />
-  <br />
+  <a href="https://drive.google.com/file/d/1dPtCzoeGLx6bnFy84FViZ9FTgyd3-jNX/view?usp=drive_link"><img src="https://img.shields.io/badge/BAIXAR_APP_ANDROID-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Baixar aplicativo Android" /></a>
 
   <sub>
     🔑 <strong>Acesso de demonstração:</strong>
